@@ -1,7 +1,8 @@
 {
   "Faq - default": {
     "title": "FAQs",
-    "__resolveType": "site/sections/Faq.tsx"
+    "__resolveType": "site/sections/Faq.tsx",
+    "questions": []
   },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -303,9 +304,10 @@
       }
     ],
     "seo": {
-      "titleTemplate": "%s",
+      "titleTemplate": "Hello!",
       "descriptionTemplate": "%s",
-      "type": "website"
+      "type": "website",
+      "title": "title here"
     },
     "global": [
       {
@@ -317,7 +319,7 @@
     },
     "firstByteThresholdMS": false,
     "theme": {
-      "__resolveType": "Neutral"
+      "__resolveType": "Groovy Vibes"
     }
   },
   "collections/blog/authors/37e675e9dd6d": {
