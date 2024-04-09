@@ -221,6 +221,14 @@
       "email": "author@deco.cx"
     }
   },
+  "collections/blog/authors/37e675e9dd6d": {
+    "name": "collections/blog/authors/37e675e9dd6d",
+    "__resolveType": "blog/loaders/Author.ts",
+    "author": {
+      "name": "Tavano",
+      "email": "tavano@deco.cx"
+    }
+  },
   "collections/blog/posts/1c8bb9f3d71d": {
     "name": "collections/blog/posts/1c8bb9f3d71d",
     "__resolveType": "blog/loaders/Blogpost.ts",
@@ -296,6 +304,62 @@
     ],
     "__resolveType": "website/pages/Page.tsx"
   },
+  "redirects-%2Ffromteste-895573": {
+    "redirect": {
+      "from": "/fromteste",
+      "to": "/toteste",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-%2Ftavano-682294": {
+    "redirect": {
+      "from": "/tavano",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects--126577": {
+    "redirect": {
+      "from": "/tavano",
+      "to": "/tooo",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects--282081": {
+    "redirect": {
+      "from": "/from",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects--801755": {
+    "redirect": {
+      "from": "/from",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-fromtavanotesteproduto%3FskuId%3D23456-78067": {
+    "redirect": {
+      "from": "/from/tavano/teste/produto?skuId=23456",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
+  "redirects-testetavano-16526": {
+    "redirect": {
+      "from": "/testetavano",
+      "to": "/to",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
+  },
   "site": {
     "__resolveType": "site/apps/site.ts",
     "routes": [
@@ -322,12 +386,12 @@
       "__resolveType": "Groovy Vibes"
     }
   },
-  "collections/blog/authors/37e675e9dd6d": {
-    "name": "collections/blog/authors/37e675e9dd6d",
-    "__resolveType": "blog/loaders/Author.ts",
-    "author": {
-      "name": "Tavano",
-      "email": "tavano@deco.cx"
-    }
+  "redirects-tavano123-131312": {
+    "redirect": {
+      "from": "/tavano123",
+      "to": "/to456",
+      "type": "permanent"
+    },
+    "__resolveType": "website/loaders/redirect.ts"
   }
 }
